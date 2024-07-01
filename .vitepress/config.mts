@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/repo/',
+  base: '/docs-demo/',
+  head: [['link', { rel: 'icon', href: '/docs-demo/logo.svg' }]],
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
